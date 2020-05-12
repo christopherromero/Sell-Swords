@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc8cb60d97b6cc642a67f7df1dc74639, type: 3}
+  m_Name: Pants
+  m_EditorClassIdentifier: 
+  name: New Item
+  icon: {fileID: 0}
+  isDefaultItem: 1
+  wear: 100
+  mesh: {fileID: 8198273960452407107, guid: f24a107a9c08b6f4f8da7d1c151c89e4, type: 3}
+  equipSlot: 2
+  coveredMeshRegion: 
+  armorModifier: 0
+  damageModifier: 0
