@@ -1436,7 +1436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.84
   interactionTransform: {fileID: 363298313}
-  item: {fileID: 11400000, guid: 8ed4c71582b502643a787fb9492d85fd, type: 2}
+  item: {fileID: 11400000, guid: 267407a2e34b2eb46b511140711669d1, type: 2}
 --- !u!1 &366018661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1959,6 +1959,7 @@ GameObject:
   - component: {fileID: 493337258}
   - component: {fileID: 493337264}
   - component: {fileID: 493337263}
+  - component: {fileID: 493337265}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -2077,6 +2078,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   interactionTransform: {fileID: 493337262}
+--- !u!114 &493337265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493337257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54b37b7658d170640b3c3ea0191aabed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackSpeed: 1
 --- !u!1 &529233690
 GameObject:
   m_ObjectHideFlags: 0
@@ -4168,6 +4182,7 @@ GameObject:
   - component: {fileID: 914122324}
   - component: {fileID: 914122325}
   - component: {fileID: 914122326}
+  - component: {fileID: 914122327}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -4299,6 +4314,19 @@ MonoBehaviour:
     baseValue: 5
   armor:
     baseValue: 0
+--- !u!114 &914122327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914122318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54b37b7658d170640b3c3ea0191aabed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackSpeed: 1
 --- !u!1001 &962172578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4582,7 +4610,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.84
   interactionTransform: {fileID: 993573263}
-  item: {fileID: 11400000, guid: 267407a2e34b2eb46b511140711669d1, type: 2}
+  item: {fileID: 11400000, guid: b4e41efe819da264fb0afb9ac762f3c9, type: 2}
 --- !u!65 &993573260
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4829,7 +4857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.84
   interactionTransform: {fileID: 1048654739}
-  item: {fileID: 11400000, guid: b4e41efe819da264fb0afb9ac762f3c9, type: 2}
+  item: {fileID: 11400000, guid: 8ed4c71582b502643a787fb9492d85fd, type: 2}
 --- !u!65 &1048654736
 BoxCollider:
   m_ObjectHideFlags: 0
